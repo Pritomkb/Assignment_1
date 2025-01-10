@@ -1,0 +1,471 @@
+/* Fira Sans  */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+body{
+    background: rgb(245, 245, 245); 
+}
+/* Agine  topic  */
+.bbbb{
+    transition: transform 0.3s ease;
+}
+
+ .bbbb:hover {
+  transform: scale(1.1);
+  background-color: rgb(139, 243, 173);
+  color: #000000;
+}
+
+  /* header  */
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 100px;
+    align-items: center;
+}
+#header h3{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+#header button {
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+padding: 15px 30px;
+gap: 48;
+font-size: 20px;
+font-weight: 700;
+color: rgb(0, 106, 80);
+transition: transform 0.3s ease;
+}
+
+#header button:hover {
+  transform: scale(1.1);
+  background-color: rgb(0, 106, 80);
+  color: #f8f8f8;
+}
+
+/* <!-- Section 1 --> */
+
+#op1{
+    margin: 20px 100px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+}
+
+#op1 .op1{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+#op1 .op1 .d{
+    text-align: left;
+    padding: 10px 20px;
+}
+#op1 h3 {
+color: rgba(14, 14, 14, 0.5);
+font-family: Fira Sans;
+font-size: 24px;
+font-weight: 500;
+}
+#op1 h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 49px;
+    font-weight: 700;
+}
+#op1 button{
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+padding: 10px 20px;
+transition: transform 0.3s ease;
+}
+#op1 button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
+}
+
+/* <!-- Section 2 --> */
+
+#op2{
+    display: flex;
+    margin: 30px 100px;
+    text-align: left;
+}
+#op2 h2{
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;  
+}
+#op2 .fbox{
+    display: flex;
+}
+#op2 .ss{
+align-items: center;
+flex-direction: row;
+padding: 20px;
+box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+margin: 0 10px;
+}
+#op2 .ss h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+#op2 .ss p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* <!-- Section 3 --> */
+
+#op3 {
+    display: flex;
+    margin: 20px 100px;
+    text-align: left;
+}
+#op3 h2{
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+#op3 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#op3 .tbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+    align-self: stretch;
+
+}
+#op3 .tbox h3{
+font-size: 20px;
+font-weight: 700;
+}
+#op3 .tbox p{
+font-size: 15px;
+font-weight: 400;
+line-height: 24px;
+}
+
+/* a */
+
+#op3 .tbox .a{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin: 0 18px 0 0;
+    padding: 32px;
+}
+#op3 .tbox .a button {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    transition: transform 0.3s ease;
+}
+#op3 .tbox .a button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
+}
+
+/* aa */
+
+#op3 .tbox .aa{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    margin: 0  18px 0 0;
+    padding: 32px;
+}
+#op3 .tbox .aa button {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    transition: transform 0.3s ease;
+}
+#op3 .tbox .aa button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
+}
+
+/* aaa */
+
+#op3 .tbox .aaa{
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(247, 235, 207);
+    padding: 32px;
+}
+#op3 .tbox .aaa button {
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    border-radius: 8px;
+    background:  rgb(255, 194, 57);
+    justify-content: center;
+    align-items: center;
+    gap: 48;
+    padding: 11px 20px 11px 20px;
+    transition: transform 0.3s ease;
+}
+#op3 .tbox .aaa button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
+}
+
+/* <!-- Section  4--> */
+
+#op4 {
+    display: flex;
+    margin: 20px 100px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+#op4 .op4 {
+    margin: 24px ;
+    background: url("../IMG/quote-bg.png");
+    background-repeat: no-repeat;
+}
+#op4 p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 30px 0;
+}
+#op4 h3 {
+    margin: -5px 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+#op4 .ad {
+    margin: 10px 0;
+}
+
+
+/* <!-- Section 5 --> */
+
+#op5{
+/* display: flex; */
+margin: 50px 100px;
+}
+#op5 h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#op5 .op5 {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* margin: 30px 12px; */
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+#op5 .op5 .td{
+    /* margin: 50px 0; */
+
+}
+#op5 table, th {
+    padding: 40px;
+
+}
+
+#op5 table {
+    display: block;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5% 100px ;
+
+}
+#op5 th{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#op5 button {
+box-sizing: border-box;
+border: 1px solid rgb(14, 14, 14);
+border-radius: 4px;
+background: rgb(198, 228, 214);
+padding: 10px 14px;
+transition: transform 0.3s ease;
+}
+#op5 .pp{
+    text-align: left;
+    font-size: 14px;
+    padding: 0 100px 0 20px ;
+}
+#op5 button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
+}
+
+/* <!-- Section 6 --> */
+
+#op6 {
+    margin: 30px 100px;
+}
+#op6 h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#op6 p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#op6 .op6 {
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#op6 .op6 img{
+    border-radius: 24px;
+}
+#op6 .op6 .det{
+    padding: 0 30px;
+}
+#op6 .op6 .det h2{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+}
+#op6 .op6 .det p{
+    font-size: 15px;
+    /* font-weight: 400; */
+    line-height: 14px;
+}
+#op6 .op6 .det button{
+border-radius: 8px;
+background: rgb(0, 106, 80);
+color: #f8f8f8;
+padding: 13px 26px;
+font-size: 15px;
+font-weight: 400;
+line-height: 14px;
+transition: transform 0.3s ease;
+}
+#op6 .op6 .det button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
+}
+
+/* <!-- Section 7 --> */
+
+#op7 {
+    margin: 30px 100px;
+}
+#op7 h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+}
+#op7 p{
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+#op7 .taka{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+#op7 .taka .o{
+    padding:15px 35px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);  
+    font-size: 20px;
+    font-weight: 400;
+    transition: transform 0.3s ease;
+}
+#op7 .taka .o:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
+
+}
+#op7 .bbox{
+    box-sizing: border-box;
+border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: rgb(255, 255, 255);
+padding: 20px 30px;
+margin: 32px 0;
+text-align: center;
+color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px
+}
+#op7 button{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80); 
+    padding: 17px 34px;
+    color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
