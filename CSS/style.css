@@ -391,6 +391,7 @@ transition: transform 0.3s ease;
     line-height: 14px;
 }
 #op6 .op6 .det button{
+border: none;
 border-radius: 8px;
 background: rgb(0, 106, 80);
 color: #f8f8f8;
@@ -446,18 +447,20 @@ transition: transform 0.3s ease;
     color: rgb(12, 110, 12);
 
 }
-#op7 .bbox{
-    box-sizing: border-box;
-border-bottom: 1px solid rgba(14, 14, 14, 0.15);
-background: rgb(255, 255, 255);
-padding: 20px 30px;
-margin: 32px 0;
+#op7 .bbox {
 text-align: center;
+font-size: 8px;
+font-weight: 700;
+line-height: 19px ;
+}
+#op7 .bbox input{
 color: rgba(14, 14, 14, 0.3);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 19px
+font-size: 24px;
+border: none;
+background: rgb(255, 255, 255);
+margin: 20px 0;
+padding:30px 450px ;
+
 }
 #op7 button{
     box-sizing: border-box;
@@ -469,6 +472,12 @@ line-height: 19px
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
+    transition: transform 0.3s ease;
+}
+#op7 button:hover{
+    transform: scale(1.1);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
 }
 
 /* <!-- Section 8 --> */
@@ -517,7 +526,12 @@ padding: 40px 100px;
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
-    line-height: 22px;
+    line-height: 22px;transition: transform 0.3s ease;
+}
+#op8 button:hover{
+    transform: scale(1.05);
+    background-color: rgb(245, 127, 127);
+    color: rgb(12, 110, 12);
   }
 
 
